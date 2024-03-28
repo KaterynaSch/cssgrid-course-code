@@ -4,4 +4,17 @@
 
 .container {
   display: grid;
+  height: 500px;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid #000;
+  /* justify-items: end; */
+  /* align-items: end; */
+  justify-content: space-between;
+  /* align-content: space-evenly; */
+}
+
+.item-4 {
+  justify-self: stretch;
+  align-self: stretch;
 }
